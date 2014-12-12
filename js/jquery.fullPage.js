@@ -41,9 +41,9 @@
 			'animateAnchor': true,
 
 			//design
-			'controlArrowColor': '#333',
+			'controlArrowColor': 'rgba(30,100,200,0.8)',
 			"verticalCentered": true,
-			'resize': true,
+			'resize': false,
 			'sectionsColor' : [],
 			'paddingTop': 0,
 			'paddingBottom': 0,

@@ -1,5 +1,6 @@
+@import url("jquery.fullPage.css")  (min-width: 960px);
 *{
-	outline: 1px solid #EEE;
+	outline: 0px solid #EEE;
 	margin: 0;
 	padding: 0;
 }
@@ -27,17 +28,18 @@ h1{
 }
 .slide{
 	background-color: #CCC;
+	position: relative;
 }
 .menu{
 	background-color: rgba(30,30,30,0.5);
 	position: absolute;
 	top: 1em;
-	left: 1em;
+	right: 1em;
 	width: 400px;
 }
 #fondo{
 	background-size: cover;
-	background-image: url(../img/fondo1.jpg);
+	background-image: url(../img/fondo2.jpg);
 	background-color: #111;
 }
 .menu p{
@@ -88,4 +90,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 textarea{
 	min-height: 200px;
+}
+.fp-slidesNav li a span{
+	padding: 2px;
+	color: #FFF;
+}
+@media (max-width: 960px){
+		body{
+				overflow: scroll;
+		}
+		div.slide{
+			display: block;
+		}
 }
