@@ -1,0 +1,36 @@
+*{
+	outline: 1px solid #EEE;
+	margin: 0;
+	padding: 0;
+}
+body{
+}
+.slide{
+	background-color: #CCC;
+}
+.menu{
+	background-color: rgba(30,30,30,0.5);
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	width: 400px;
+}
+#fondo{
+	background-size: cover;
+	background-image: url(../img/fondo1.jpg);
+	background-color: #111;
+}
+.menu p{
+	padding: 2em;
+	color: #FFF;
+}
+.grid{
+	width: 25%;
+	display: inline-block;
+	min-height: 200px;
+	text-align: left;
+}
+.contenedor{
+	margin: 0 auto;
+	text-align: center;
+}
