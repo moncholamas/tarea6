@@ -7,6 +7,7 @@
 body{
 	font-size: 1.5em;
 	font-family: Calibri;
+	background-color: #CCC;
 }
 h1{
 	position: absolute;
@@ -53,6 +54,7 @@ h1{
 	text-align: left;
 	position: relative;
 	margin: 1em;
+	border: solid 2px #AAA;
 }
 .contenedor{
 	margin: 0 auto;
@@ -69,7 +71,7 @@ h1{
 .contacto input,textarea{
 	padding: 1em;
 	margin-right: 4em;
-	width: 300px;
+	width: 200px;
 }
 .contacto input[type=submit],.contacto input[type=reset]{
 	width: 160px;
@@ -96,10 +98,49 @@ textarea{
 	color: #FFF;
 }
 @media (max-width: 960px){
+		.menu{
+			min-height: 400px;
+			position: relative;
+			height: auto;
+		}
 		body{
 				overflow: scroll;
 		}
 		div.slide{
 			display: block;
+			position: relative;
+		}
+		h1{
+			position: relative;
+			display: inline;
+			padding: 0;
+			margin: 0;
+			width: auto;
+		}
+		.grid{
+			display: block;
+			width: 90%;
+		}
+		.grid h2{
+			top:-2em;
+			margin: 0;
+		}
+		.contenedor{
+			margin: 0;
+		}
+		.contacto{
+		width: 95%;
+		display: block;
+		text-align: center;
+		}
+		.contacto input,textarea{
+			display: block;
+			width: auto;
+			text-align: center;
+			margin: 0 auto;
+			width: 300px;
+		}
+		.contacto input[type=submit],.contacto input[type=reset]{
+			margin: 0;
 		}
 }
